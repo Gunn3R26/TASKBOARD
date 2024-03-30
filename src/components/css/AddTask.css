@@ -1,0 +1,146 @@
+.add-task-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 30rem;
+  height: max-content;
+  margin: auto;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid red;
+}
+.add-task-modal h2{
+  color: lightcoral;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.add-task-modal button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  
+  border: none;
+  margin: 1rem 0 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task-modal button:last-child {
+  background-color: #dc3545;
+}
+
+.title-add,
+.desc-add,
+.assignee-add,
+.priority-add {
+  margin: auto;
+  display: flex;
+  font-size: 1rem;
+  width: 80%;
+  flex-direction: column;
+  padding: 0.5rem 0 0.5rem;
+}
+.title-add input,
+.desc-add textarea,
+.assignee-add input {
+  width: 23.7rem;
+  border: 2px solid lightcoral;
+  height: 2rem;
+  border-radius: 5px;
+  padding-left: .5rem;
+  font-family: "poppins";
+}
+.desc-add textarea {
+  resize: none;
+  padding-top: 1rem;
+  text-align: justify;
+  
+}
+.priority-add select {
+  width: 22.8rem;
+  height: 2rem;
+  border: 2px solid lightcoral;
+  padding-left: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.title-add label {
+  margin: 0;
+}
+.button-add{
+  display: flex;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.button-add button{
+  width: 6rem;
+  height: 2.5rem;
+}
+@media screen and (max-width: 425px){
+  .add-task-modal{
+    width: 50vh;
+  }
+  .title-add input,
+.desc-add textarea,
+.assignee-add input {
+  width: 20rem;
+  border: 2px solid lightcoral;
+  height: 2rem;
+  border-radius: 5px;
+  padding-left: .5rem;
+  font-family: "poppins";
+}
+.desc-add textarea {
+  resize: none;
+  padding-top: 1rem;
+  text-align: justify;
+  
+}
+.priority-add select {
+  width: 20.9rem;
+  height: 2rem;
+  border: 2px solid lightcoral;
+  padding-left: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+}
+@media screen and (min-width:320px) and (max-width: 375px){
+  .add-task-modal{
+    width: 40vh;
+  }
+  .title-add input,
+.desc-add textarea,
+.assignee-add input {
+  width:15.5rem;
+  border: 2px solid lightcoral;
+  height: 2rem;
+  border-radius: 5px;
+  padding-left: .5rem;
+  font-family: "poppins";
+}
+.desc-add textarea {
+  resize: none;
+  padding-top: 1rem;
+  text-align: justify;
+  
+}
+.priority-add select {
+  width: 16.3rem;
+  height: 2rem;
+  border: 2px solid lightcoral;
+  padding-left: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+}
+  

@@ -1,0 +1,73 @@
+.sort-modal{
+    margin: 0rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+.sort-group select{
+    height: 2rem;
+    font-family: 'poppins';
+    padding: 0rem 1rem 0rem;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.but-sort{
+    height: 2rem;
+    cursor: pointer;
+    font-family: 'poppins';
+    padding: 0rem 1rem 0rem;
+    border: none;
+    transition: .1s linear;
+    color: white;
+    border-radius: 5px;
+    background-color: lightcoral;
+}
+.but-sort:hover{
+    background-color: rgb(246, 78, 78);
+}
+@media screen and (max-width: 768px) {
+    .sort-modal {
+      flex-direction: row;
+      align-items: center;
+      margin-top: .5rem;
+      gap: .5rem;
+    }
+    .sort-modal .sort-group select{
+      width: 100%;
+    }
+    
+    
+  }
+  @media screen and (min-width:421px) and (max-width: 590px){
+    .sort-modal {
+      flex-direction: row;
+      align-items: center;
+      margin-top: .5rem;
+      gap: .5rem;
+      font-size: .7rem;
+    }
+    .sort-modal .sort-group select{
+      font-size: .5rem;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 420px){
+    .sort-modal {
+      flex-direction: row;
+      align-items: center;
+      margin-top: .5rem;
+      gap: .5rem;
+      font-size: .7rem;
+    }
+    .sort-modal .sort-group select{
+      font-size: .5rem;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width:769px) and (max-width: 1024px){
+    .sort-modal{
+      margin-top: 1rem;
+    }
+  }

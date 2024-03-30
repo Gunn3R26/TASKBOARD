@@ -1,0 +1,216 @@
+.filter-modal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.filter-modal h2{
+    font-weight: 600;
+    color: rgb(2, 184, 184);
+}
+
+.filter-assignee input,.filter-date1 input,.filter-date2 input{
+    height: 2rem;
+    padding: 0rem 1rem 0rem;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: 'poppins';
+}
+.filter-date{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.filter-priority select{
+    height: 2rem;
+    font-family: 'poppins';
+    padding: 0rem 1rem 0rem;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.filter-modal button{
+    height: 2rem;
+    cursor: pointer;
+    font-family: 'poppins';
+    padding: 0rem 1rem 0rem;
+    border: none;
+    transition: .1s linear;
+    color: white;
+    border-radius: 5px;
+}
+.filter-but{
+    background-color: lightcoral;
+    transition: .1s linear;
+}
+.filter-but:hover{
+    background-color: rgb(246, 78, 78);
+}
+.cancel-filter{
+    background-color: rgb(2, 184, 184);
+    transition: .1s linear;
+}
+.cancel-filter:hover{
+    background-color: rgb(2, 113, 113);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .filter-modal {
+        border: 1px solid red;
+      display: flex;
+      width: 85vw;
+      flex-direction: row;
+      margin: auto;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+      font-size: .8rem;
+    }
+    .filter-modal h2{
+        margin: 0;
+    }
+    .filter-date{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .filter-date1,.filter-date2,.filter-assignee{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .filter-assignee input,
+    .filter-date1 input,
+    .filter-date2 input,
+    .filter-priority select
+    {
+      max-width: 100%;
+      min-width: 40%;
+    }
+    .filter-modal button {
+
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .filter-modal {
+        border: 1px solid red;
+      display: flex;
+      width: 60vw;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+      font-size: .8rem;
+    }.filter-modal h2{
+        margin: 0;
+    }
+    .filter-date{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .filter-date1,.filter-date2,.filter-assignee{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .filter-assignee input,
+    .filter-date1 input,
+    .filter-date2 input,
+    .filter-priority select,
+    .filter-modal button {
+      max-width: 100%;
+      min-width: 40%;
+    }
+  }
+  @media screen and (max-width: 420px){
+    
+    .filter-modal {
+        border: 1px solid red;
+      display: flex;
+      width: 60vw;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .5rem;
+      font-size: .7rem;
+    }
+    .filter-date{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        flex-wrap: wrap;
+    }
+    .filter-assignee input,
+    .filter-date1 input,
+    .filter-date2 input
+     {
+      width: 130px;
+      margin: auto;
+      font-size: .5rem;
+     
+      
+    }
+    .filter-priority select{
+        width: 100%;
+        font-size: .5rem;
+    }
+    .filter-date1,.filter-date2,.filter-assignee{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media screen and (min-width:421px) and (max-width: 590px){
+ 
+    .filter-modal {
+        border: 1px solid blue;
+      display: flex;
+      width: 60vw;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .5rem;
+      font-size: .7rem;
+    }
+    .filter-date{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        flex-wrap: wrap;
+    }
+    .filter-assignee input,
+    .filter-date1 input,
+    .filter-date2 input
+     {
+      width: 200px;
+      margin: auto;
+      font-size: .5rem;
+     
+      
+    }
+    .filter-priority select{
+        width: 100%;
+        font-size: .5rem;
+    }
+    .filter-date1,.filter-date2,.filter-assignee{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+    
+  
