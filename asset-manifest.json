@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gunn3R26/TASKBOARD/static/css/main.59408113.css",
+    "main.js": "/Gunn3R26/TASKBOARD/static/js/main.0a562048.js",
+    "static/js/453.14f4aa7c.chunk.js": "/Gunn3R26/TASKBOARD/static/js/453.14f4aa7c.chunk.js",
+    "index.html": "/Gunn3R26/TASKBOARD/index.html",
+    "main.59408113.css.map": "/Gunn3R26/TASKBOARD/static/css/main.59408113.css.map",
+    "main.0a562048.js.map": "/Gunn3R26/TASKBOARD/static/js/main.0a562048.js.map",
+    "453.14f4aa7c.chunk.js.map": "/Gunn3R26/TASKBOARD/static/js/453.14f4aa7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59408113.css",
+    "static/js/main.0a562048.js"
+  ]
+}
